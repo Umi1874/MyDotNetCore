@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ase:aseXML xmlns:ase="urn:aseXML:r34" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:aseXML:r34 aseXML_r34.xsd">
+  <Header>
+    <From>NAGMO</From>
+    <To>GLOBIRDUSR</To>
+    <MessageID>NSWACTGAS-NAGMO-MSG-17494813</MessageID>
+    <MessageDate>2019-12-05T00:24:39+10:00</MessageDate>
+    <TransactionGroup>CATS</TransactionGroup>
+    <Priority>Medium</Priority>
+    <Market>NSWACTGAS</Market>
+  </Header>
+  <Transactions>
+    <Transaction transactionID="NSWACTGAS-NAGMO-TNS-33408831" transactionDate="2019-12-05T00:22:23+10:00">
+      <CATSNotification version="r29">
+        <Role>NFRO</Role>
+        <RoleStatus>N</RoleStatus>
+        <ChangeRequest>
+          <Participant>AGLUSR</Participant>
+          <RequestID>33318830</RequestID>
+          <ChangeStatusCode>PEN</ChangeStatusCode>
+          <ChangeData>
+            <ChangeReasonCode>0001</ChangeReasonCode>
+            <ProposedDate>2019-12-04</ProposedDate>
+            <NMIStandingData xsi:type="ase:GasStandingData" version="r34">
+              <NMI checksum="9">5240562506</NMI>
+            </NMIStandingData>
+          </ChangeData>
+        </ChangeRequest>
+      </CATSNotification>
+    </Transaction>
+  </Transactions>
+</ase:aseXML>

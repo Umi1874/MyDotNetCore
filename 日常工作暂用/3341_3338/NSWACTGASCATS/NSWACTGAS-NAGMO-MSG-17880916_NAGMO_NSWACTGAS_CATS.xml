@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ase:aseXML xmlns:ase="urn:aseXML:r34" 
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:aseXML:r34 aseXML_r34.xsd">
+  <Header>
+    <From>NAGMO</From>
+    <To>GLOBIRDUSR</To>
+    <MessageID>NSWACTGAS-NAGMO-MSG-17880916</MessageID>
+    <MessageDate>2020-01-07T17:35:40+10:00</MessageDate>
+    <TransactionGroup>CATS</TransactionGroup>
+    <Priority>Medium</Priority>
+    <Market>NSWACTGAS</Market>
+  </Header>
+  <Acknowledgements>
+    <TransactionAcknowledgement initiatingTransactionID="GL6132238-00001" receiptID="33742043" receiptDate="2020-01-07T17:35:34+10:00" status="Accept" duplicate="No" />
+    <TransactionAcknowledgement initiatingTransactionID="GL6132238-00002" receiptID="33742044" receiptDate="2020-01-07T17:35:34+10:00" status="Accept" duplicate="No" />
+    <TransactionAcknowledgement initiatingTransactionID="GL6132238-00003" receiptID="33742045" receiptDate="2020-01-07T17:35:35+10:00" status="Accept" duplicate="No" />
+    <TransactionAcknowledgement initiatingTransactionID="GL6132238-00004" receiptID="33742046" receiptDate="2020-01-07T17:35:36+10:00" status="Accept" duplicate="No" />
+    <TransactionAcknowledgement initiatingTransactionID="GL6132238-00005" receiptID="33742047" receiptDate="2020-01-07T17:35:36+10:00" status="Accept" duplicate="No" />
+    <TransactionAcknowledgement initiatingTransactionID="GL6132238-00006" receiptID="33742048" receiptDate="2020-01-07T17:35:37+10:00" status="Accept" duplicate="No" />
+    <TransactionAcknowledgement initiatingTransactionID="GL6132238-00007" receiptID="33742049" receiptDate="2020-01-07T17:35:38+10:00" status="Accept" duplicate="No" />
+  </Acknowledgements>
+</ase:aseXML>

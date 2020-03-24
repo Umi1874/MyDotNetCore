@@ -1,0 +1,67 @@
+<!ELEMENT BatchRejection004 ( header ,(custDtlRqst| statusRqst| extRqst)+, trailer ) >
+
+<!ATTLIST  extRqst id CDATA #IMPLIED >
+
+<!ELEMENT extRqst ( custId, orgType, cnfrmDate?, (firstName?, middleName?, surname)?, dob?, addr?, pcode?) >
+
+<!ELEMENT addr ( addrLn1,addrLn2?, suburb, state, pcode ) >
+
+<!ELEMENT addrLn1 ( #PCDATA ) >
+
+<!ELEMENT addrLn2 ( #PCDATA ) >
+
+<!ELEMENT batchInfo ( #PCDATA ) >
+
+<!ELEMENT cnfrmDate ( #PCDATA ) >
+
+<!ELEMENT custId ( #PCDATA ) >
+
+<!ELEMENT orgType ( #PCDATA ) >
+
+<!ELEMENT crn ( #PCDATA ) >
+
+<!ELEMENT custDtlRqst ( crn, cnfrmDate?, (firstName?, middleName?, surname)?, dob?, addr?) >
+
+<!ATTLIST custDtlRqst id CDATA #IMPLIED >
+
+<!ELEMENT dob ( #PCDATA ) >
+
+<!ELEMENT firstName ( #PCDATA ) >
+
+<!ELEMENT header ( system, timestamp, userId, senderOrgCrn?, recverOrgCrn?, senderAbn?, recverAbn?, batchInfo? ) >
+
+<!ELEMENT numRecords ( #PCDATA ) >
+
+<!ELEMENT pcode ( #PCDATA ) >
+
+<!ELEMENT recverAbn ( #PCDATA ) >
+
+<!ELEMENT recverOrgCrn ( #PCDATA ) >
+
+<!ELEMENT system ( #PCDATA ) >
+
+<!ELEMENT middleName ( #PCDATA ) >
+
+<!ELEMENT scndryCrn ( #PCDATA ) >
+
+<!ELEMENT senderAbn ( #PCDATA ) >
+
+<!ELEMENT senderOrgCrn ( #PCDATA ) >
+
+<!ELEMENT state ( #PCDATA ) >
+
+<!ELEMENT statusRqst ( crn, cnfrmDate?, pcode?, scndryCrn? ) >
+
+<!ATTLIST statusRqst id CDATA #IMPLIED >
+
+<!ELEMENT suburb ( #PCDATA ) >
+
+<!ELEMENT surname ( #PCDATA ) >
+
+<!ELEMENT timestamp ( #PCDATA ) >
+
+<!ELEMENT trailer ( numRecords ) >
+
+<!ELEMENT userId ( #PCDATA ) >
+
+

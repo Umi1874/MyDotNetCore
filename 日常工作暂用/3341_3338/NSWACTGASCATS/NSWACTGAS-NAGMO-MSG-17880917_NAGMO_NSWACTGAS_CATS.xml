@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ase:aseXML xmlns:ase="urn:aseXML:r34" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:aseXML:r34 aseXML_r34.xsd">
+  <Header>
+    <From>NAGMO</From>
+    <To>GLOBIRDUSR</To>
+    <MessageID>NSWACTGAS-NAGMO-MSG-17880917</MessageID>
+    <MessageDate>2020-01-07T17:35:42+10:00</MessageDate>
+    <TransactionGroup>CATS</TransactionGroup>
+    <Priority>Medium</Priority>
+    <Market>NSWACTGAS</Market>
+  </Header>
+  <Transactions>
+    <Transaction transactionID="NSWACTGAS-NAGMO-TNS-33742050" transactionDate="2020-01-07T17:35:34+10:00" initiatingTransactionID="GL6132238-00001">
+      <CATSChangeResponse version="r29">
+        <RequestID>33742043</RequestID>
+        <Event severity="Information" class="Message">
+          <Code>0</Code>
+        </Event>
+      </CATSChangeResponse>
+    </Transaction>
+  </Transactions>
+</ase:aseXML>

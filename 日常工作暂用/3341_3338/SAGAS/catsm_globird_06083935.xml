@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<ase:aseXML xmlns:ase="urn:aseXML:r29" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:aseXML:r29 http://www.nemmco.com.au/asexml/schemas/r29/aseXML_r29.xsd">
+	<Header>
+		<From>GLOBIRD</From>
+		<To>REMCO</To>
+		<MessageID>GLOBIRD-MSG-06083935</MessageID>
+		<MessageDate>2020-01-03T16:22:10.687+10:00</MessageDate>
+		<TransactionGroup>CATS</TransactionGroup>
+		<Priority>Medium</Priority>
+		<SecurityContext>VENCORP</SecurityContext>
+		<Market>SAGAS</Market>
+	</Header>
+	<Transactions>
+		<Transaction transactionID="GL6083935-00001" transactionDate="2020-01-03T16:22:12.517+10:00">
+			<CATSChangeRequest version="r29">
+				<ChangeReasonCode>0002</ChangeReasonCode>
+				<ProposedDate>2020-01-08</ProposedDate>
+				<NMIStandingData xsi:type="ase:GasStandingData" version="r29">
+					<NMI checksum="6">5510528238</NMI>
+				</NMIStandingData>
+			</CATSChangeRequest>
+		</Transaction>
+	</Transactions>
+</ase:aseXML>

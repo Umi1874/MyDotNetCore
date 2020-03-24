@@ -1,0 +1,121 @@
+<!ELEMENT BatchResponse004 (  header, (custDtlResp  | statusResp | extResp)+, trailer ) >
+
+<!ELEMENT extResp ( custId, orgType, cnfrmId?, cnfrmDate?, mtchCode, firstName? , middleName? , surname? , dob? , addr?,pcodeMtch?, deceased?, pcc?, shc?, gch?,pow?,wwp?, extPymt? ,disability?,sda?,state?) >
+
+<!ATTLIST extResp id CDATA #IMPLIED >
+
+<!ELEMENT custId ( #PCDATA ) >
+
+<!ELEMENT orgType ( #PCDATA ) >
+
+<!ELEMENT cnfrmId ( #PCDATA ) >
+
+<!ELEMENT gch ( #PCDATA ) >
+
+<!ELEMENT pow ( #PCDATA ) >
+
+<!ELEMENT wwp ( #PCDATA ) >
+
+<!ELEMENT disability ( #PCDATA ) >
+
+<!ELEMENT sda ( #PCDATA ) >
+
+<!ELEMENT state ( #PCDATA ) >
+
+<!ELEMENT header ( system, timestamp, userId, senderOrgCrn?, recverOrgCrn?, senderAbn?, 
+	recverAbn?, batchInfo? ) >
+
+<!ELEMENT system ( #PCDATA ) >
+
+<!ELEMENT timestamp ( #PCDATA ) >
+
+<!ELEMENT userId ( #PCDATA ) >
+
+<!ELEMENT senderOrgCrn ( #PCDATA ) >
+
+<!ELEMENT recverOrgCrn ( #PCDATA ) >
+
+<!ELEMENT senderAbn ( #PCDATA ) >
+
+<!ELEMENT recverAbn ( #PCDATA ) >
+
+<!ELEMENT batchInfo ( #PCDATA ) >
+
+<!ELEMENT custDtlResp ( crn, mtchCode, cnfrmDate?, name?, firstName?, middleName?, 
+	surname?, dob?, addr?, state? ) >
+
+<!ATTLIST custDtlResp id CDATA #IMPLIED >
+
+<!ELEMENT crn ( #PCDATA ) >
+
+<!ELEMENT mtchCode ( #PCDATA ) >
+
+<!ELEMENT cnfrmDate ( #PCDATA ) >
+
+<!ELEMENT name ( #PCDATA ) >
+
+<!ELEMENT firstName ( #PCDATA ) >
+
+<!ELEMENT middleName ( #PCDATA ) >
+
+<!ELEMENT surname ( #PCDATA ) >
+
+<!ELEMENT dob ( #PCDATA ) >
+
+<!ELEMENT addr ( #PCDATA ) >
+
+<!ELEMENT statusResp ( crn, mtchCode, cnfrmDate?, pcc?, hcc?, shc?, deceased?, 
+	blind?, over70?, war?, inst?, pcode?, numChild?, scndryCrn?, pymt?, 
+	maxRate?, rateThold?, rateRatio?, otherPayments? ) >
+ 
+<!ATTLIST statusResp id CDATA #IMPLIED >
+
+<!ELEMENT pcc ( #PCDATA ) >
+
+<!ELEMENT hcc ( #PCDATA ) >
+
+<!ELEMENT shc ( #PCDATA ) >
+
+<!ELEMENT deceased ( #PCDATA ) >
+
+<!ELEMENT inst ( #PCDATA ) >
+
+<!ELEMENT blind ( #PCDATA ) >
+
+<!ELEMENT over70 ( #PCDATA ) >
+
+<!ELEMENT war ( #PCDATA ) >
+
+<!ELEMENT pcode ( #PCDATA ) >
+
+<!ELEMENT pcodeMtch ( #PCDATA ) >
+
+<!ELEMENT numChild ( #PCDATA ) >
+
+<!ELEMENT scndryCrn ( #PCDATA ) >
+
+<!ELEMENT pymt ( type?, status?, startDate?, endDate?, datePaidTo? ) >
+
+<!ELEMENT extPymt ( type?, status?, startDate?, maxRate?, rateRatio? ) >
+
+<!ELEMENT otherPayments ( type?, status?, startDate?, endDate?, datePaidTo? ) >
+
+<!ELEMENT type ( #PCDATA ) >
+
+<!ELEMENT status ( #PCDATA ) >
+
+<!ELEMENT startDate ( #PCDATA ) >
+
+<!ELEMENT endDate ( #PCDATA ) >
+
+<!ELEMENT datePaidTo ( #PCDATA ) >
+      
+<!ELEMENT maxRate ( #PCDATA ) >
+
+<!ELEMENT rateRatio ( #PCDATA ) >
+
+<!ELEMENT rateThold ( #PCDATA ) >
+
+<!ELEMENT trailer ( numRecords ) >
+
+<!ELEMENT numRecords ( #PCDATA ) >

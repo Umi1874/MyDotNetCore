@@ -1,0 +1,1 @@
+Hi @Model.Billing.FirstName, GloBird Energy has arranged to turn the gas on at @Model.NmiAddress on @Model.ScheduledDate. Please ensure there is clear access to your gas meter. For help call 133456 Mon to Sat, quote @Model.AccountNumber

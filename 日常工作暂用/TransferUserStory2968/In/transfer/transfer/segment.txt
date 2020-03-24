@@ -1,0 +1,23 @@
+SELECT DISTINCT crmc.CustomerId,
+                crma.AccountId,
+                crmas.AccountServiceId
+FROM   crm.AccountService crmas
+       INNER JOIN crm.Account crma
+               ON crmas.AccountId = crma.AccountId
+       INNER JOIN crm.Customer crmc
+               ON crma.CustomerId = crmc.CustomerId
+       INNER JOIN aemo.ChangeRequest aemocr
+               ON crmas.AccountServiceId = aemocr.AccountServiceId
+       INNER JOIN price.ServiceType pricest
+               ON crmas.ServiceTypeId = pricest.ServiceTypeId
+WHERE  aemocr.ChangeRequestStatusCode = 'COM'
+       AND pricest.Name = 'Gas'
+       AND NOT EXISTS(SELECT 1
+                      FROM   crm.WorkItem crmwi
+                             INNER JOIN crm.WorkItemType crmwit
+                                     ON crmwi.WorkItemTypeId = crmwit.WorkItemTypeId
+                             INNER JOIN crm.WorkItemStatus crmwis
+                                     ON crmwi.WorkItemStatusId = crmwis.WorkItemStatusId
+                      WHERE  crmas.AccountServiceId = crmwi.AccountServiceId
+                             AND crmwit.Name = 'TransferConrespondence'
+                             AND crmwis.Name = 'TaskClosed') 

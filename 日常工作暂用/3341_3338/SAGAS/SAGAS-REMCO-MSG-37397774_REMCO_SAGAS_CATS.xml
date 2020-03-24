@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ase:aseXML xmlns:ase="urn:aseXML:r29" 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:aseXML:r29 http://www.nemmco.com.au/asexml/schemas/r29/aseXML_r29.xsd">
+    <Header>
+        <From>REMCO</From>
+        <To>GLOBIRD</To>
+        <MessageID>SAGAS-REMCO-MSG-37397774</MessageID>
+        <MessageDate>2020-01-03T15:22:56+10:00</MessageDate>
+        <TransactionGroup>CATS</TransactionGroup>
+        <Priority>Medium</Priority>
+        <Market>SAGAS</Market>
+    </Header>
+    <Acknowledgements>
+        <TransactionAcknowledgement initiatingTransactionID="GL6083935-00001" receiptID="26255813" receiptDate="2020-01-03T15:22:55+10:00" status="Accept" duplicate="No" />
+    </Acknowledgements>
+</ase:aseXML>
+

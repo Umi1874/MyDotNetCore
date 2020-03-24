@@ -1,0 +1,11 @@
+GloBird Energy Update, Account #@Model.AccountNumber: 
+Hi, @Model.Billing.FirstName,  We are pleased to confirm that on @Model.FrmpDate, your electricity service at @Model.NmiAddress, NMI/MIRN @Model.Nmi, was transferred to GloBird Energy successfully.  To ensure you never miss out on any pay-on-time discount, why not set up direct debit payments online at www.globirdenergy.com.au/directdebit, using reference number @Model.BpayReference Alternatively, please call 133456  
+
+GloBird Energy Update, Account #@Model.AccountNumber: 
+Hi, @Model.Billing.FirstName,  We are pleased to confirm that on @Model.FrmpDate, your gas service at @Model.NmiAddress, NMI/MIRN @Model.Nmi, was transferred to GloBird Energy successfully.  To ensure you never miss out on any pay-on-time discount, why not set up direct debit payments online at www.globirdenergy.com.au/directdebit, using reference number @Model.BpayReference Alternatively, please call 133456  
+
+GloBird Energy Update, Account #@Model.AccountNumber 
+Hi, @Model.Billing.FirstName,  Welcome aboard! We have started the transfer of your gas service to GloBird Energy for @Model.NmiAddress, NMI/MIRN @Model.Nmi. We are proud to offer competitive rates, so let us know if you are contacted by your previous retailer. Remember not all discounts will leave you better off.  Let us do the maths. Call us on 133456, we are open from Mon. to Sat.  
+
+GloBird Energy Update, Account #@Model.AccountNumber 
+Hi, @Model.Billing.FirstName,  Welcome aboard! We have started the transfer of your electricity service to GloBird Energy for @Model.NmiAddress, NMI/MIRN @Model.Nmi. We are proud to offer competitive rates, so let us know if you are contacted by your previous retailer. Remember not all discounts will leave you better off.  Let us do the maths. Call us on 133456, we are open from Mon. to Sat.  
