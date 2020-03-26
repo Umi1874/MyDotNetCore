@@ -1,0 +1,1 @@
+@(Model.Billing.FirstName)，您好，GloBird Energy预计在@(Model.ScheduledDate)为您的地址@(Model.NmiAddress)接通天然气。请确保上门服务的技术人员可以接触到您的燃气表。如需帮助，请于周一至周六致电133456，您的账号是@(Model.AccountNumber)
