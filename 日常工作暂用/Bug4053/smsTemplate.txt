@@ -1,0 +1,3 @@
+GloBird Energy Update, Account #@Model.AccountNumber
+Hi @Model.Billing.FirstName,
+It is a sad day here at GloBird Energy. We have noticed you have made plans to switch your electricity service at @Model.NmiAddress, account @Model.AccountNumber, to another retailer. If you did not initiate this transfer please give us a call 133456 (Mon to Fri 830am-530pm, Sat 1000am-400pm).
