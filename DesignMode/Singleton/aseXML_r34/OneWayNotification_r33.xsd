@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<xsd:annotation>
+		<xsd:documentation>This schema file is part of the aseXML schema set, and is subject to the terms and conditions that are detailed in the aseXML_r*.xsd schema file with which this file is used</xsd:documentation>
+	</xsd:annotation>
+	<xsd:annotation>
+		<xsd:documentation>Purpose - Define the structure of One Way Notification transaction to extend the aseXML</xsd:documentation>
+	</xsd:annotation>
+	<!-- Transaction Types -->
+	<xsd:complexType name="OneWayNotification">
+		<xsd:sequence>
+			<xsd:element name="CSVNotificationDetail" type="CSVDataWithName"/>
+		</xsd:sequence>
+		<xsd:attribute name="version" type="r25" use="optional" default="r25"/>
+	</xsd:complexType>
+</xsd:schema>

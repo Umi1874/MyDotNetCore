@@ -1,0 +1,11 @@
+C:\Users\Joseph.you\Desktop\MyCode\MyCSharp\Design Mode Learning\DesignMode\XmlDemo\bin\Debug\netcoreapp3.1\XmlDemo.exe
+C:\Users\Joseph.you\Desktop\MyCode\MyCSharp\Design Mode Learning\DesignMode\XmlDemo\bin\Debug\netcoreapp3.1\XmlDemo.deps.json
+C:\Users\Joseph.you\Desktop\MyCode\MyCSharp\Design Mode Learning\DesignMode\XmlDemo\bin\Debug\netcoreapp3.1\XmlDemo.runtimeconfig.json
+C:\Users\Joseph.you\Desktop\MyCode\MyCSharp\Design Mode Learning\DesignMode\XmlDemo\bin\Debug\netcoreapp3.1\XmlDemo.runtimeconfig.dev.json
+C:\Users\Joseph.you\Desktop\MyCode\MyCSharp\Design Mode Learning\DesignMode\XmlDemo\bin\Debug\netcoreapp3.1\XmlDemo.dll
+C:\Users\Joseph.you\Desktop\MyCode\MyCSharp\Design Mode Learning\DesignMode\XmlDemo\bin\Debug\netcoreapp3.1\XmlDemo.pdb
+C:\Users\Joseph.you\Desktop\MyCode\MyCSharp\Design Mode Learning\DesignMode\XmlDemo\obj\Debug\netcoreapp3.1\XmlDemo.csprojAssemblyReference.cache
+C:\Users\Joseph.you\Desktop\MyCode\MyCSharp\Design Mode Learning\DesignMode\XmlDemo\obj\Debug\netcoreapp3.1\XmlDemo.AssemblyInfoInputs.cache
+C:\Users\Joseph.you\Desktop\MyCode\MyCSharp\Design Mode Learning\DesignMode\XmlDemo\obj\Debug\netcoreapp3.1\XmlDemo.AssemblyInfo.cs
+C:\Users\Joseph.you\Desktop\MyCode\MyCSharp\Design Mode Learning\DesignMode\XmlDemo\obj\Debug\netcoreapp3.1\XmlDemo.dll
+C:\Users\Joseph.you\Desktop\MyCode\MyCSharp\Design Mode Learning\DesignMode\XmlDemo\obj\Debug\netcoreapp3.1\XmlDemo.pdb

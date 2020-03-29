@@ -1,0 +1,10 @@
+C:\Users\Joseph.you\Desktop\MyCode\MyCSharp\Design Mode Learning\DesignMode\FactoryMethod\bin\Debug\netcoreapp3.0\FactoryMethod.exe
+C:\Users\Joseph.you\Desktop\MyCode\MyCSharp\Design Mode Learning\DesignMode\FactoryMethod\bin\Debug\netcoreapp3.0\FactoryMethod.deps.json
+C:\Users\Joseph.you\Desktop\MyCode\MyCSharp\Design Mode Learning\DesignMode\FactoryMethod\bin\Debug\netcoreapp3.0\FactoryMethod.runtimeconfig.json
+C:\Users\Joseph.you\Desktop\MyCode\MyCSharp\Design Mode Learning\DesignMode\FactoryMethod\bin\Debug\netcoreapp3.0\FactoryMethod.runtimeconfig.dev.json
+C:\Users\Joseph.you\Desktop\MyCode\MyCSharp\Design Mode Learning\DesignMode\FactoryMethod\bin\Debug\netcoreapp3.0\FactoryMethod.dll
+C:\Users\Joseph.you\Desktop\MyCode\MyCSharp\Design Mode Learning\DesignMode\FactoryMethod\bin\Debug\netcoreapp3.0\FactoryMethod.pdb
+C:\Users\Joseph.you\Desktop\MyCode\MyCSharp\Design Mode Learning\DesignMode\FactoryMethod\obj\Debug\netcoreapp3.0\FactoryMethod.AssemblyInfoInputs.cache
+C:\Users\Joseph.you\Desktop\MyCode\MyCSharp\Design Mode Learning\DesignMode\FactoryMethod\obj\Debug\netcoreapp3.0\FactoryMethod.AssemblyInfo.cs
+C:\Users\Joseph.you\Desktop\MyCode\MyCSharp\Design Mode Learning\DesignMode\FactoryMethod\obj\Debug\netcoreapp3.0\FactoryMethod.dll
+C:\Users\Joseph.you\Desktop\MyCode\MyCSharp\Design Mode Learning\DesignMode\FactoryMethod\obj\Debug\netcoreapp3.0\FactoryMethod.pdb

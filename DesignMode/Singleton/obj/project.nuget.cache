@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "lxS5nfMfqgmWKa8azHCzkjFpBdUi1BEsaWeaW6m72mw8/61oo4o0VhVZrLC5CeMMZ72t4bTKua+9oISQf3/OrQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Joseph.you\\Desktop\\MyCode\\MyNetCore\\DesignMode\\Singleton\\Singleton.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Joseph.you\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.0.1\\microsoft.aspnetcore.app.ref.3.0.1.nupkg.sha512",
+    "C:\\Users\\Joseph.you\\.nuget\\packages\\microsoft.netcore.app.ref\\3.0.0\\microsoft.netcore.app.ref.3.0.0.nupkg.sha512",
+    "C:\\Users\\Joseph.you\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.0.3\\microsoft.netcore.app.host.win-x64.3.0.3.nupkg.sha512",
+    "C:\\Users\\Joseph.you\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.0.0\\microsoft.windowsdesktop.app.ref.3.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
