@@ -3,15 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29424.173
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Singleton", "Singleton\Singleton.csproj", "{CCA74A57-32A1-403C-A064-9E74418C7B1F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Singleton", "设计模式\Singleton\Singleton.csproj", "{CCA74A57-32A1-403C-A064-9E74418C7B1F}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FactoryMethod", "FactoryMethod\FactoryMethod.csproj", "{B70C126F-651A-43DB-B879-2B4C42064C04}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FactoryMethod", "设计模式\FactoryMethod\FactoryMethod.csproj", "{B70C126F-651A-43DB-B879-2B4C42064C04}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XmlDemo", "XmlDemo\XmlDemo.csproj", "{229BA4DF-36F2-48CE-9547-5D174996FF51}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XmlDemo", "CommonDemo\XmlDemo\XmlDemo.csproj", "{229BA4DF-36F2-48CE-9547-5D174996FF51}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppTest", "AppTest\AppTest.csproj", "{0976B2B1-BC84-4EA0-872F-6C1F6BC6C44D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppTest", "CommonDemo\AppTest\AppTest.csproj", "{0976B2B1-BC84-4EA0-872F-6C1F6BC6C44D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{AEF468E6-39E1-430A-8B55-06461FBDFF80}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "CommonDemo\ConsoleApp1\ConsoleApp1.csproj", "{AEF468E6-39E1-430A-8B55-06461FBDFF80}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

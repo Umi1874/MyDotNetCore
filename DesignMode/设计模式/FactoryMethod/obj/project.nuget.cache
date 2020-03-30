@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "HV2x+uLb2FQsnKou752XOjzU3ZjJVyD1AoFuY2kfc+vD7cA6JgBIP27pcHGH+mCujKhNrC1XHmuBjq4PEV6H6Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Joseph.you\\Desktop\\MyCode\\MyNetCore\\DesignMode\\设计模式\\FactoryMethod\\FactoryMethod.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Joseph.you\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.0.1\\microsoft.aspnetcore.app.ref.3.0.1.nupkg.sha512",
+    "C:\\Users\\Joseph.you\\.nuget\\packages\\microsoft.netcore.app.ref\\3.0.0\\microsoft.netcore.app.ref.3.0.0.nupkg.sha512",
+    "C:\\Users\\Joseph.you\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.0.3\\microsoft.netcore.app.host.win-x64.3.0.3.nupkg.sha512",
+    "C:\\Users\\Joseph.you\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.0.0\\microsoft.windowsdesktop.app.ref.3.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
