@@ -11,7 +11,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XmlDemo", "CommonDemo\XmlDe
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppTest", "CommonDemo\AppTest\AppTest.csproj", "{0976B2B1-BC84-4EA0-872F-6C1F6BC6C44D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "CommonDemo\ConsoleApp1\ConsoleApp1.csproj", "{AEF468E6-39E1-430A-8B55-06461FBDFF80}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp1", "CommonDemo\ConsoleApp1\ConsoleApp1.csproj", "{AEF468E6-39E1-430A-8B55-06461FBDFF80}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

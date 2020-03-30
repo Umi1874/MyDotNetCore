@@ -1,4 +1,5 @@
 ﻿using System;
+using ConsoleApp1.OverrideAndNew;
 
 namespace ConsoleApp1
 {
@@ -6,6 +7,9 @@ namespace ConsoleApp1
     {
         public static void Main(string[] args)
         {
+            /**
+             * 重写与隐藏
+             */
             OverrideBase ob = new OverrideBase();
             NewBase nb = new NewBase();
 
@@ -21,30 +25,10 @@ namespace ConsoleApp1
             Console.WriteLine(nbc.ToString() + ":" + nbc.GetString());
 
             Console.ReadKey();
-        }
-    }
 
-    public class BaseClass
-    {
-        public virtual string GetString()
-        {
-            return "我是基类";
-        }
-    }
-
-    public class OverrideBase : BaseClass
-    {
-        public override string GetString()
-        {
-            return "我重写了基类";
-        }
-    }
-
-    public class NewBase : BaseClass
-    {
-        public new virtual string GetString()
-        {
-            return "我隐藏了基类";
+            /*
+             * String Builder
+             */
         }
     }
 }
