@@ -20,7 +20,7 @@ BEGIN
 
     SET @return_date = dbo.dbf_trunc_date(@start_date)
 
-    if @bus_days = 0 
+    IF @bus_days = 0 
       BEGIN
         SET @return_date = dateadd(day,-1,@return_date)
         SET @bus_days = 1
@@ -62,5 +62,4 @@ BEGIN
     RETURN @return_date
 
 END
-   
 

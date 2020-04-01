@@ -11,6 +11,7 @@ namespace AppTest
     {
         private readonly IConfiguration _config;
         private readonly ILogger<HostService> _logger;
+        private const int Ten = 10;
 
         public HostService(IConfiguration config, ILogger<HostService> logger)
         {
@@ -28,17 +29,42 @@ namespace AppTest
         /// </summary>
         private void Execute()
         {
-            //TODO 业务逻辑代码，如下模拟
-            Stopwatch stopwatch = Stopwatch.StartNew();
-            for (int i = 1; i <= 100; i++)
+            // checkSum小工具
+            string input = "6220200331";
+            var result = CalculateNmiCheckSum(input);
+            Console.WriteLine(result);
+
+        }
+
+        private string CalculateNmiCheckSum(string input)
+        {
+            if (string.IsNullOrWhiteSpace(input) || input.Length != Ten)
             {
-                Console.WriteLine("test WriteLine:" + i);
-                Thread.Sleep(100);
+                throw new ArgumentException("invalid nmi");
             }
 
-            stopwatch.Stop();
+            string nmi = input.ToUpper();
 
-            _logger.LogInformation("Logging - Execute Elapsed Times:{}ms", stopwatch.ElapsedMilliseconds);
+            int value = 0;
+            bool multiply = true;
+            for (int i = nmi.Length; i > 0; i--)
+            {
+                int charCode = nmi[i - 1];
+                if (multiply)
+                {
+                    charCode = charCode * 2;
+                }
+
+                multiply = !multiply;
+                while (charCode >= 1)
+                {
+                    value += charCode % Ten;
+                    charCode = charCode / Ten;
+                }
+            }
+
+            int calculatedCheckSum = (Ten - (value % Ten)) % Ten;
+            return calculatedCheckSum.ToString();
         }
     }
 }

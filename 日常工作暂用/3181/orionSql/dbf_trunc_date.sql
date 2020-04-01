@@ -7,7 +7,7 @@ SET QUOTED_IDENTIFIER ON
 GO
 
 
-ALTER FUNCTION [dbo].[dbf_trunc_date]
+CREATE FUNCTION [dbo].[dbf_trunc_date]
 (      @pdt_datetime DATETIME)
 RETURNS DATETIME
 WITH SCHEMABINDING
