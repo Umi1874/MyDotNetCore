@@ -7,7 +7,7 @@ SET QUOTED_IDENTIFIER ON
 
 GO
 
-CREATE FUNCTION [dbo].[Dbf_add_bus_days] (@start_date DATETIME,
+CREATE FUNCTION [dbo].[dbf_add_bus_days] (@start_date DATETIME,
                                           @bus_days   NUMERIC,
                                           @stateCode  VARCHAR(20))
 RETURNS DATETIME

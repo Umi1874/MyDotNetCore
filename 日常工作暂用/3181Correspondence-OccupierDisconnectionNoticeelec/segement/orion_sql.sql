@@ -32,4 +32,4 @@ WHERE  acs.accnt_status_code NOT LIKE '%closed%'
     AND dbo.Dbf_add_business_days(docs.document_date, 6) < Getdate()
     AND docs2.document_ref IS NULL -- No disconnection notice attached
     AND pty.party_name = 'the occupier'
-    AND sstat.site_status_desc LIKE '%active%' 
+    AND sstat.site_status_desc LIKE '%active%'

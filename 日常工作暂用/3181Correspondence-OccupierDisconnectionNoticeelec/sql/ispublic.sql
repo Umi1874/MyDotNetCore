@@ -7,7 +7,7 @@ SET QUOTED_IDENTIFIER ON
 
 GO
 
-CREATE FUNCTION [dbo].[Dbf_is_publicholiday] (@nextDay   DATE,
+CREATE FUNCTION [dbo].[dbf_is_publicholiday] (@nextDay   DATE,
                                               @stateCode VARCHAR(20))
 RETURNS BIT
 AS
