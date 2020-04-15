@@ -1,0 +1,12 @@
+C:\Users\Joseph.you\Desktop\MyCode\MyNetCore\DesignMode\CheckSumTool\bin\Debug\netcoreapp3.1\CheckSumTool.exe
+C:\Users\Joseph.you\Desktop\MyCode\MyNetCore\DesignMode\CheckSumTool\bin\Debug\netcoreapp3.1\CheckSumTool.deps.json
+C:\Users\Joseph.you\Desktop\MyCode\MyNetCore\DesignMode\CheckSumTool\bin\Debug\netcoreapp3.1\CheckSumTool.runtimeconfig.json
+C:\Users\Joseph.you\Desktop\MyCode\MyNetCore\DesignMode\CheckSumTool\bin\Debug\netcoreapp3.1\CheckSumTool.runtimeconfig.dev.json
+C:\Users\Joseph.you\Desktop\MyCode\MyNetCore\DesignMode\CheckSumTool\bin\Debug\netcoreapp3.1\CheckSumTool.dll
+C:\Users\Joseph.you\Desktop\MyCode\MyNetCore\DesignMode\CheckSumTool\bin\Debug\netcoreapp3.1\CheckSumTool.pdb
+C:\Users\Joseph.you\Desktop\MyCode\MyNetCore\DesignMode\CheckSumTool\obj\Debug\netcoreapp3.1\CheckSumTool.csproj.CoreCompileInputs.cache
+C:\Users\Joseph.you\Desktop\MyCode\MyNetCore\DesignMode\CheckSumTool\obj\Debug\netcoreapp3.1\CheckSumTool.AssemblyInfoInputs.cache
+C:\Users\Joseph.you\Desktop\MyCode\MyNetCore\DesignMode\CheckSumTool\obj\Debug\netcoreapp3.1\CheckSumTool.AssemblyInfo.cs
+C:\Users\Joseph.you\Desktop\MyCode\MyNetCore\DesignMode\CheckSumTool\obj\Debug\netcoreapp3.1\CheckSumTool.dll
+C:\Users\Joseph.you\Desktop\MyCode\MyNetCore\DesignMode\CheckSumTool\obj\Debug\netcoreapp3.1\CheckSumTool.pdb
+C:\Users\Joseph.you\Desktop\MyCode\MyNetCore\DesignMode\CheckSumTool\obj\Debug\netcoreapp3.1\CheckSumTool.genruntimeconfig.cache

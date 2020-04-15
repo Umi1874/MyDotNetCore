@@ -307,9 +307,9 @@
 															<tr>
                                                                 <td style="font-family: Helvetica, arial, sans-serif; font-size: 18px; color: #333333; text-align: left; padding-left: 50px">
                                                                     <div style="margin-bottom:5px">
-                                                                        @Model.AddressLine1</div>
+                                                                        @Model.BaseAddressDto.AddressLine</div>
                                                                     <div>
-                                                                        @Model.AddressLine2 @Model.AddressLine3 @Model.AddressLine4
+                                                                        @Model.BaseAddressDto.Locality @Model.BaseAddressDto.StateCode @Model.BaseAddressDto.Postcode
                                                                     </div>
                                                                 </td>
                                                             </tr>
@@ -329,7 +329,7 @@
                                                             <tr>
                                                                 <td style="font-family: Helvetica, arial, sans-serif; font-size: 16px; color: #333333; text-align: left;">
                                                                     <div style="margin-bottom:5px">National Meter Identifier: @Model.Nmi</div>
-                                                                    <div>Site Address: @Model.AddressLine1, @Model.AddressLine2, @Model.AddressLine3 @Model.AddressLine4</div>
+                                                                    <div>Site Address: @Model.NmiAddress</div>
                                                                 </td>
                                                             </tr>
                                                             <tr>
@@ -354,7 +354,7 @@
                                                                         Globird Energy has not heard from you.
                                                                     </div>
                                                                     <div style="margin-bottom:20px">
-                                                                        We wrote to you requesting that you contact us to provide acceptable identification, so that we could establish your energy account at <strong>@Model.AddressLine1, @Model.AddressLine2, @Model.AddressLine3 @Model.AddressLine4</strong>.
+                                                                        We wrote to you requesting that you contact us to provide acceptable identification, so that we could establish your energy account at <strong>@Model.NmiAddress</strong>.
                                                                     </div>
                                                                     <div style="margin-bottom:20px">
                                                                         Please contact us to provide acceptable identification to avoid disconnection. In accordance with relevant energy laws in your state, we are entitled to disconnect you for failure to provide identification.

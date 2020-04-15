@@ -10,7 +10,7 @@ namespace ConsoleApp1
             /**
              * 重写与隐藏
              */
-            OverrideBase ob = new OverrideBase();
+            /*OverrideBase ob = new OverrideBase();
             NewBase nb = new NewBase();
 
             Console.WriteLine(ob.ToString() + ":" + ob.GetString());
@@ -24,11 +24,18 @@ namespace ConsoleApp1
             Console.WriteLine(obc.ToString() + ":" + obc.GetString());
             Console.WriteLine(nbc.ToString() + ":" + nbc.GetString());
 
-            Console.ReadKey();
+            Console.ReadKey();*/
 
             /*
              * String Builder
              */
+
+            var time1 = DateTime.Now;
+            var result = $"{time1.ToShortDateString()}{time1.ToShortTimeString()}";
+            Console.WriteLine(time1.ToLongTimeString());
+            Console.WriteLine(time1.ToShortTimeString());
+            Console.WriteLine(result);
+            Console.WriteLine(DateTime.Today);
         }
     }
 }

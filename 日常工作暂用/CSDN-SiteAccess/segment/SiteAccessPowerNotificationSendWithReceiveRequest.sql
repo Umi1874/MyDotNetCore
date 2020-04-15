@@ -9,7 +9,7 @@ FROM   crm.Customer crmc
                ON crma.AccountId = crmas.AccountId
                   AND crmas.Nmi <> 'UNKNOWN'
                   AND crmas.FrmpDate IS NOT NULL
-                  AND crmas.CreatedDate > '2020-01-01'
+       --AND crmas.CreatedDate > '2020-01-01'
        INNER JOIN price.ServiceType pricest
                ON crmas.ServiceTypeId = pricest.ServiceTypeId
                   AND pricest.[Name] = 'Power'
@@ -35,4 +35,5 @@ WHERE  EXISTS (SELECT 1
                        WHERE  aemoaxt1.AccountServiceId = crmas.AccountServiceId
                               AND aemoaxt1.TransactionType = 'AmendMeterRouteDetails'
                               AND aemoaxt2.TransactionType = 'SiteAccessRequest'
+                              AND aemoaxt1.InitialTransactionId = aemoaxt2.TransactionId
                               AND aemoaxt1.TransactionDate > aemoaxt2.TransactionDate) 

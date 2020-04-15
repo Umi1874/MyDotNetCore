@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "RaamwFmkohHbTvrqy8M2xLHnTokp3TxKcDDrhKUkXpTBW5DcBS+bgi+UmV1BRXNPC9qN7rwvMckrWjhlrEuQZQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Joseph.you\\Desktop\\MyCode\\MyNetCore\\DesignMode\\CsvHelperDemo\\CsvHelperDemo.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Joseph.you\\.nuget\\packages\\csvhelper\\15.0.4\\csvhelper.15.0.4.nupkg.sha512",
+    "C:\\Users\\Joseph.you\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -9,7 +9,7 @@ FROM   crm.Customer crmc
                ON crma.AccountId = crmas.AccountId
                   AND crmas.Nmi <> 'UNKNOWN'
                   AND crmas.FrmpDate IS NOT NULL
-                  AND crmas.CreatedDate > '2020-01-01'
+       --AND crmas.CreatedDate > '2020-01-01'
        INNER JOIN price.ServiceType pricest
                ON crmas.ServiceTypeId = pricest.ServiceTypeId
                   AND pricest.[Name] = 'Power'
@@ -23,5 +23,5 @@ FROM   crm.Customer crmc
 WHERE  NOT EXISTS (SELECT 1
                    FROM   aemo.AseXmlTransaction aemoaxt
                    WHERE  aemoaxt.AccountServiceId = crmas.AccountServiceId
-                          AND aemoaxt.TransactionType = 'AmendMeterRouteDetails'
-                          AND aemoaxt.TransactionDate > crmsite.UpdatedDate)
+                          AND aemoaxt.TransactionType LIKE '%AmendMeterRouteDetails%'
+                          AND CONVERT(DATETIME2, aemoaxt.TransactionDate) > crmsite.UpdatedDate) 

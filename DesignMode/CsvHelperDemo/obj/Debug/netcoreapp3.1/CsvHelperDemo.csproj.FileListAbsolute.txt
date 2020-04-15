@@ -1,0 +1,15 @@
+C:\Users\Joseph.you\Desktop\MyCode\MyNetCore\DesignMode\CsvHelperDemo\bin\Debug\netcoreapp3.1\CsvHelperDemo.exe
+C:\Users\Joseph.you\Desktop\MyCode\MyNetCore\DesignMode\CsvHelperDemo\obj\Debug\netcoreapp3.1\CsvHelperDemo.csprojAssemblyReference.cache
+C:\Users\Joseph.you\Desktop\MyCode\MyNetCore\DesignMode\CsvHelperDemo\obj\Debug\netcoreapp3.1\CsvHelperDemo.AssemblyInfoInputs.cache
+C:\Users\Joseph.you\Desktop\MyCode\MyNetCore\DesignMode\CsvHelperDemo\obj\Debug\netcoreapp3.1\CsvHelperDemo.AssemblyInfo.cs
+C:\Users\Joseph.you\Desktop\MyCode\MyNetCore\DesignMode\CsvHelperDemo\bin\Debug\netcoreapp3.1\CsvHelperDemo.deps.json
+C:\Users\Joseph.you\Desktop\MyCode\MyNetCore\DesignMode\CsvHelperDemo\bin\Debug\netcoreapp3.1\CsvHelperDemo.runtimeconfig.json
+C:\Users\Joseph.you\Desktop\MyCode\MyNetCore\DesignMode\CsvHelperDemo\bin\Debug\netcoreapp3.1\CsvHelperDemo.runtimeconfig.dev.json
+C:\Users\Joseph.you\Desktop\MyCode\MyNetCore\DesignMode\CsvHelperDemo\bin\Debug\netcoreapp3.1\CsvHelperDemo.dll
+C:\Users\Joseph.you\Desktop\MyCode\MyNetCore\DesignMode\CsvHelperDemo\bin\Debug\netcoreapp3.1\CsvHelperDemo.pdb
+C:\Users\Joseph.you\Desktop\MyCode\MyNetCore\DesignMode\CsvHelperDemo\bin\Debug\netcoreapp3.1\CsvHelper.dll
+C:\Users\Joseph.you\Desktop\MyCode\MyNetCore\DesignMode\CsvHelperDemo\obj\Debug\netcoreapp3.1\CsvHelperDemo.csproj.CoreCompileInputs.cache
+C:\Users\Joseph.you\Desktop\MyCode\MyNetCore\DesignMode\CsvHelperDemo\obj\Debug\netcoreapp3.1\CsvHelperDemo.csproj.CopyComplete
+C:\Users\Joseph.you\Desktop\MyCode\MyNetCore\DesignMode\CsvHelperDemo\obj\Debug\netcoreapp3.1\CsvHelperDemo.dll
+C:\Users\Joseph.you\Desktop\MyCode\MyNetCore\DesignMode\CsvHelperDemo\obj\Debug\netcoreapp3.1\CsvHelperDemo.pdb
+C:\Users\Joseph.you\Desktop\MyCode\MyNetCore\DesignMode\CsvHelperDemo\obj\Debug\netcoreapp3.1\CsvHelperDemo.genruntimeconfig.cache

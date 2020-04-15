@@ -13,5 +13,3 @@ C:\Users\Joseph.you\Desktop\MyCode\MyNetCore\DesignMode\设计模式\Singleton\o
 C:\Users\Joseph.you\Desktop\MyCode\MyNetCore\DesignMode\设计模式\Singleton\obj\Debug\netcoreapp3.0\Singleton.csproj.CoreCompileInputs.cache
 C:\Users\Joseph.you\Desktop\MyCode\MyNetCore\DesignMode\设计模式\Singleton\obj\Debug\netcoreapp3.0\Singleton.AssemblyInfoInputs.cache
 C:\Users\Joseph.you\Desktop\MyCode\MyNetCore\DesignMode\设计模式\Singleton\obj\Debug\netcoreapp3.0\Singleton.AssemblyInfo.cs
-C:\Users\Joseph.you\Desktop\MyCode\MyNetCore\DesignMode\设计模式\Singleton\obj\Debug\netcoreapp3.0\Singleton.dll
-C:\Users\Joseph.you\Desktop\MyCode\MyNetCore\DesignMode\设计模式\Singleton\obj\Debug\netcoreapp3.0\Singleton.pdb

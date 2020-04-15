@@ -30,7 +30,7 @@ namespace AppTest
         private void Execute()
         {
             // checkSum小工具
-            string input = "6220200331";
+            string input = "6220200414";
             var result = CalculateNmiCheckSum(input);
             Console.WriteLine(result);
 

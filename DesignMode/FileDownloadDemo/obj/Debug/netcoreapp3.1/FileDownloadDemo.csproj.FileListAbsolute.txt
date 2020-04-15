@@ -1,0 +1,13 @@
+C:\Users\Joseph.you\Desktop\MyCode\MyNetCore\DesignMode\FileDownloadDemo\bin\Debug\netcoreapp3.1\FileDownloadDemo.exe
+C:\Users\Joseph.you\Desktop\MyCode\MyNetCore\DesignMode\FileDownloadDemo\bin\Debug\netcoreapp3.1\FileDownloadDemo.deps.json
+C:\Users\Joseph.you\Desktop\MyCode\MyNetCore\DesignMode\FileDownloadDemo\bin\Debug\netcoreapp3.1\FileDownloadDemo.runtimeconfig.json
+C:\Users\Joseph.you\Desktop\MyCode\MyNetCore\DesignMode\FileDownloadDemo\bin\Debug\netcoreapp3.1\FileDownloadDemo.runtimeconfig.dev.json
+C:\Users\Joseph.you\Desktop\MyCode\MyNetCore\DesignMode\FileDownloadDemo\bin\Debug\netcoreapp3.1\FileDownloadDemo.dll
+C:\Users\Joseph.you\Desktop\MyCode\MyNetCore\DesignMode\FileDownloadDemo\bin\Debug\netcoreapp3.1\FileDownloadDemo.pdb
+C:\Users\Joseph.you\Desktop\MyCode\MyNetCore\DesignMode\FileDownloadDemo\obj\Debug\netcoreapp3.1\FileDownloadDemo.csprojAssemblyReference.cache
+C:\Users\Joseph.you\Desktop\MyCode\MyNetCore\DesignMode\FileDownloadDemo\obj\Debug\netcoreapp3.1\FileDownloadDemo.csproj.CoreCompileInputs.cache
+C:\Users\Joseph.you\Desktop\MyCode\MyNetCore\DesignMode\FileDownloadDemo\obj\Debug\netcoreapp3.1\FileDownloadDemo.AssemblyInfoInputs.cache
+C:\Users\Joseph.you\Desktop\MyCode\MyNetCore\DesignMode\FileDownloadDemo\obj\Debug\netcoreapp3.1\FileDownloadDemo.AssemblyInfo.cs
+C:\Users\Joseph.you\Desktop\MyCode\MyNetCore\DesignMode\FileDownloadDemo\obj\Debug\netcoreapp3.1\FileDownloadDemo.dll
+C:\Users\Joseph.you\Desktop\MyCode\MyNetCore\DesignMode\FileDownloadDemo\obj\Debug\netcoreapp3.1\FileDownloadDemo.pdb
+C:\Users\Joseph.you\Desktop\MyCode\MyNetCore\DesignMode\FileDownloadDemo\obj\Debug\netcoreapp3.1\FileDownloadDemo.genruntimeconfig.cache
